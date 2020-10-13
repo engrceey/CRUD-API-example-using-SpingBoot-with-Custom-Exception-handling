@@ -20,7 +20,6 @@ public class ControllerExceptionHandler {
                 request.getDescription(false)
                 );
 
-
         return new ResponseEntity<ErrorMessage>(message, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
